@@ -8,8 +8,8 @@ mail = Mail(app) # instantiate the mail class
 # configuration of mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'sivamukkala4@gmail.com'
-app.config['MAIL_PASSWORD'] = 'snycogwihjlnvfbc' #macblbnicpgyvrjv
+app.config['MAIL_USERNAME'] = ''
+app.config['MAIL_PASSWORD'] = '' 
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
@@ -25,7 +25,7 @@ def index():
 		next(reader)
 		for name, addr in reader:
 			msg = Message(f'Hello {name} THIS IS JUST AN PFSD - FLASK MAIL USING CSV',
-						sender='sivamukkala4@gmail.com', recipients=[addr])
+						sender='mail-id', recipients=[addr])
 			msg.body = 'Hi! Ur receiving this mail because u have attended PFSD CLASS ON 14.09.22 -- DO NOT WORRY '\
 					'THIS IS JUST A PFSD - FLASK MAIL USING CSV EXAMPLE PROGRAM'
 			mail.send(msg)
