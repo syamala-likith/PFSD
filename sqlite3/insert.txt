@@ -1,0 +1,14 @@
+import sqlite3
+
+conn=sqlite3.connect('test.db')
+print("Opened database sucessfully");
+
+conn.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) \
+		VALUES(1,'PAUL',32,'CALIFORNIA',20000.00)");
+
+conn.execute("INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) \
+		VALUES(2,'ALLEN',25,'TEXAS',15000.00)");
+
+conn.commit()
+print("Recordes Created Successfully");
+conn.close()

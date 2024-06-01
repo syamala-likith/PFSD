@@ -1,0 +1,86 @@
+Introdduction To Python:
+		*Python is called as open source language.
+		*Python is general purpose object oriented and high level programming language.
+		*It can be used in Web applications, Enterprices applications, 3D and CAD.
+		*It can't be used in gaming.
+		*Current version is 3.10.1
+		*Python file formate is .py
+		*Officil website https://www.python.org
+		*For downloding Libraries and Repositaries https://www.pypi.org
+
+Fetaures Of Python:
+		*Easy to understand and learn.
+		*Python is called as an Interpretend Language.
+		*Object oriented language where u will use all the moocs concepts nessesaries.
+		*Open source Language.
+		*Supports wide range of libraries and frame works.
+		*GUI acts as a medium b/w the user and server.
+
+Various Areas Here Python Is Used:
+		*AI and Data Science, Data Mining, Meachine Learning, Software Development,
+		 Mobile Applications, 3D Apllications, Speach Recognisation, Image Prossecing Apllications and (**Web Applications**).
+
+Python Basic Syntax:
+		*Indentations is to defined block of a code and it is nothing but (**White Spaces**).
+
+Applications Of Python:
+		*You Tube, Netflix, Face_Book, Instagram, LinkedIn, Quora and Drop_Box.
+
+Populor Frame Works In Python:
+		*Web Development(Server Side:-"ADMINS are Server Side"):- Dango, Flask, Pyramid, Cherrypy.
+		*GUI based applications:- TK, PYGTR, PYQL, PYJS.
+		*Meachine Learning:- Tensorflow, pytorch, Matplotlib, Mathematics(numpy or pandas).
+
+Limitations In Python:
+		*Not Good for Gaming.
+		*More Libraries.
+		*No dedicated supports for the libraries and the libraries are in huge.
+
+Important Library Functions In Python:
+		*datetime, OS, CSV, **sqllite3**(SQL:-Structured Qurey Language), JSON.
+
+Requests For Library:
+		*Dango and Flask.
+
+Data Types In Python:
+		*int, float, String , Complex, boolean, list, tuple, set, dictionary, class.
+
+Important Basic Functions:
+		*len():- returns length of the collection.
+		*type():- To know the data type of a variable.
+		*dir:- to know the functionalities of individual data type.
+		*print():- used to display
+		*help:- to know the discription and to resolve the error.
+		*input():- to read input from keyboard.
+
+Comment Lines In Python:
+		1.# :- used for single line command.
+		2."text" :- Multi line comment or documnets frame.
+
+Python Data Structures:
+		1.Primitive:
+			*integer, float, String and boolean.
+		2.Non Primitive:
+			*It is catogarised into built in and user defined.
+			1.Built In:
+					List, Tuple, Dictionary, Set.
+			2.User Defined:
+					   Stack, Queue, Linked List and Tree.
+
+List In Python:
+		*Python list holds the ordered Collection of Items that indicates the Sequance.
+		*List is mutable(modifications can be done).
+		*The Items od the list are enclosed with in the square brackets([]) sapareted by coma(,).
+		*Example: 
+				 a=[1,"Likith",12.5,true]
+				 print(len(a))
+				 print(a)
+
+Tuple In Python:
+		*It is used to store sequance of immutable python objects.
+		*The Items od the list are enclosed with in the square brackets(()) sapareted by coma(,).
+		*The Tuples are immutable(Modifications can't be done).
+		*Example: 
+				 a=(1,"Likith",12.5,true)
+				 print(len(a))
+				 print(a)

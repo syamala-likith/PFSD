@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="from">
+    <from method="post">
+      <button id="btn">Send</button>      
+    </from>
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    var btn=document.getElementById('btn');
+    btn.addEventListener('click',function(e)
+    {
+      e.preventDefault()
+      Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "rockylikith9886@gmail.com",
+      Password : "44C8AF1D857C6CDF1AD0782536A9FA57A850",
+      To : 'rockylikith9886@gmail.com',
+      From : "rockylikith9886@gmail.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+    })
+  </script>
+</body>
+<!-- /*Subject : "Travel Tourisim And Hospitality",
+Body : "The Email is according to the ticket you had requested for traveling do the payment to the UPI ID: 8978827699@ybl"*/ -->
+</html>

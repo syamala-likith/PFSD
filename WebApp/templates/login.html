@@ -1,0 +1,22 @@
+{% extends 'commons.html' %}
+
+{% block content %}
+    <center><h1>{% block title %} Login Page {%endblock%} </h1> </center>
+
+    <form action="/loginuser" id="likith" method="post">
+        <table>
+            <tr>
+                <td><input type="text" name="username" placeholder="Enter User Name"></input></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" placeholder="Enter Password"></input></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Login"></input></td>
+            </tr>
+        </table>
+    </form>
+
+New User <a href="/newuser"> Register here</a>
+{% endblock %}
+

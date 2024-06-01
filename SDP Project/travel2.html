@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="travel.html">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us card || Learning robo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+      <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+.checkpage{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    align-content: center;
+    min-height: 100vh;
+}
+
+
+
+.content{
+    background-color: #12192c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+    margin-left:25vw ;
+    margin-right: 25vw;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 400px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color:#ffffff
+}
+.back{
+    background-color: #12192c;
+    color: #fff;
+    opacity: 0.7;
+    border-radius:20px ;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    </style>
+    </head>
+    <body>
+        <div class="checkpage">
+            <div class = "content">
+                <h1>Check Your Details</h1>
+                <span><!-- line here --></span>
+                <p id="para_id1">Your Details Were Taken Successfuly</p>
+                    <p id="para_id2"></p>
+                    <p id="para_id3"></p>
+                    <p id="para_id4"></p>
+                    <p id="para_id5"></p>
+                    <p id="para_id6"></p>
+                    <p id="para_id7"></p>
+                    <p id="para_id8"></p>
+                    <p id="para_id9"></p>
+                    <p id="para_id0"></p>
+                    <button class="back" onclick="back()">Back</button>
+                    <button class="back">Conform</button>
+            </div>
+            </div>
+        <script>
+            let a=document.getElementById("para_id2");
+            let b=document.getElementById("para_id3");
+            let c=document.getElementById("para_id4");
+            let d=document.getElementById("para_id5");
+            let e=document.getElementById("para_id6");
+            let f=document.getElementById("para_id7");
+            let g=document.getElementById("para_id8");
+            let h=document.getElementById("para_id9");
+            let i=document.getElementById("para_id0");
+        
+            let name=localStorage.getItem("name");
+            let mobile_no=localStorage.getItem("mobile_no");
+            let no_of_passangers=localStorage.getItem("no_of_passangers");
+            let mail_id=localStorage.getItem("mail_id");
+            let sourse=localStorage.getItem("sourse");
+            let destination=localStorage.getItem("destination");
+            let start_date=localStorage.getItem("start_date");
+            let end_date=localStorage.getItem("end_date");
+            let mode_of_transportation=localStorage.getItem("mode_of_transportation");
+
+            a.textContent="Name: "+name;
+            b.textContent=" Mobile: "+mobile_no;
+            c.textContent=" Number Of Passengers: "+no_of_passangers;
+            d.textContent=" Mail ID: "+mail_id;
+            e.textContent=" Sourse: "+sourse;
+            f.textContent=" Detination: "+destination;
+            g.textContent=" Start Date: "+start_date;
+            h.textContent=" End Date: "+end_date;
+            i.textContent=" Mode Of Transportation: "+mode_of_transportation;
+
+            function back()
+            {
+                window.location="travel.sectionjs.html";
+            }
+        </script>
+    </body>
+</html>

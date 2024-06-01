@@ -1,0 +1,52 @@
+        header{
+            background-color:pink;
+            text-align:center;
+            border: 2px solid black;
+        }
+        footer{
+            background-color:blue;
+            text-align:center;
+            border: 2px solid black;
+            color:white;
+        }
+        .content{
+            border: 2px solid black;
+            text-align: center;
+            min-height:70vh;
+        }
+        #regtable2{
+            width:50%;
+            margin: 0 auto;
+        }
+
+        #likith{
+        width:20%;
+        margin: 0 auto;
+        }
+
+        input{
+            width:100%;
+            padding:15px 15px;
+            margin:10px 0;
+            border: 2px solid blue;
+            border-radius:10px;
+            font-size:20px;
+            text-align:center:
+        }
+        body{
+            margin:0px;
+        }
+        input:focus{
+            outline:none;
+        }
+        input[type='submit']{
+            width:100%;
+            padding:15px 15px;
+            margin:10px 0;
+            border: 2px solid red;
+            border-radius:10px;
+            font-size:20px;
+            background-color:orange;
+            color:white;
+            cursor:pointer;
+        }
